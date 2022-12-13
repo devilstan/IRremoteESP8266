@@ -22,12 +22,12 @@
 #include "IRutils.h"
 
 // Constants
-const uint16_t kHitachiAcHdrMark = 3300;
-const uint16_t kHitachiAcHdrSpace = 1700;
+const uint16_t kHitachiAcHdrMark = 3376;
+const uint16_t kHitachiAcHdrSpace = 1688;
 const uint16_t kHitachiAc1HdrMark = 3400;
 const uint16_t kHitachiAc1HdrSpace = 3400;
-const uint16_t kHitachiAcBitMark = 400;
-const uint16_t kHitachiAcOneSpace = 1250;
+const uint16_t kHitachiAcBitMark = 422;
+const uint16_t kHitachiAcOneSpace = 1260;
 const uint16_t kHitachiAcZeroSpace = 500;
 const uint32_t kHitachiAcMinGap = kDefaultMessageGap;  // Just a guess.
 // Support for HitachiAc424 protocol
